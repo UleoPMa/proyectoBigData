@@ -5,7 +5,6 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import InicioSesion from './rutas/InicioSesion.tsx'
 import Registro from './rutas/Registro.tsx'
-import Inicio from './rutas/Inicio.tsx'
 import RutaProtegida from './rutas/RutaProtegida.tsx'
 import { AuthProvider } from './autenticacion/AuthProvider.tsx'
 

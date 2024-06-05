@@ -9,7 +9,6 @@ const BalanceChart: React.FC = () => {
   const [transactions, setTransactions] = useState<Transaction[]>([]);
   const [income, setIncome] = useState<number>(0);
   const [expenses, setExpenses] = useState<number>(0);
-  const [balance, setBalance] = useState<number>(0);
   const auth = useAuth();
   const usuario = auth.getUser()?.nombreUsuario;
 
@@ -52,7 +51,6 @@ const BalanceChart: React.FC = () => {
 
     setIncome(totalIncome);
     setExpenses(totalExpenses);
-    setBalance(totalIncome + totalExpenses);
   }, [transactions]);
 
   return (

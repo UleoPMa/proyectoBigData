@@ -1,4 +1,3 @@
-import React from "react";
 import { GlobalProvider } from "./context/global_context";
 import TransactionForm from "./components/transactions/transactionForm";
 import TransactionList from "./components/transactions/TransactionList";
@@ -6,6 +5,7 @@ import IncomeExpenses from "./components/IncomeExpenses";
 import BalanceChart from "./components/balanceChart";
 import PortalLayout from "./Vista/PortalLayout";
 import "./index.css"
+import "react"
 
 function App() {
   return(

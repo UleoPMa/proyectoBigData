@@ -9,7 +9,7 @@ interface AuthProviderProps{
 const AuthContext = createContext({
     isAuthenticated: false,
     getAccessToken: () => {},
-    saveUser: (userData: AuthResponse ) => {},
+    saveUser: (_userData: AuthResponse ) => {},
     getRefreshToken:() => {},
     getUser: () => ({} as User | undefined),
     signOut: () => {},
